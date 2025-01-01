@@ -6,7 +6,8 @@ A Python script that helps you instalock agents in Valorant. Created for educati
 
 ![Example](example.gif)
 
-⚠️ **DISCLAIMER**: This tool may violate Valorant's Terms of Service. Use at your own risk. The creator is not responsible for any consequences.
+> [!WARNING]  
+> This tool may violate Valorant's Terms of Service. Use at your own risk. The creator is not responsible for any consequences.
 
 ## Features
 
