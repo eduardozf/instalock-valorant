@@ -1,6 +1,6 @@
 # Valorant Instalock Macro 🎯
 
-[English](README.md) | [中文](README_CN.md)
+[English](README.md) | [Português](README_PTBR.md) | [中文](README_CN.md)
 
 A Python script that helps you instalock agents in Valorant. Created for educational purposes only 👀
 
@@ -84,7 +84,7 @@ A Python script that helps you instalock agents in Valorant. Created for educati
 1. **Game Settings**:
 
    - Recommended: Set Valorant to "Windowed Fullscreen" mode (Just to make it easier to see the agents position)
-   - Recommended: Test in Custom Games first
+   - Recommended: Use in Custom Games only
 
 2. **Running the Script**:
 
@@ -114,7 +114,6 @@ A Python script that helps you instalock agents in Valorant. Created for educati
 
 ## Tips
 
-- Configure the macro in a Custom Game to avoid disrupting actual matches
 - Each agent can have its own keybind
 - Press ESC during recording to cancel
 - The script saves your configuration automatically
