@@ -16,6 +16,9 @@ A Python script that helps you instalock agents in Valorant. Created for educati
 - Simple setup process
 - Configurable click delays and positions
 - Randomized click positions with a configurable margin of error help prevent macro detection
+- Human-like mouse movement simulation
+- Enhanced error handling and stability
+- Fine-tunable settings for click intervals and hold times
 
 ## Prerequisites
 
@@ -88,10 +91,10 @@ A Python script that helps you instalock agents in Valorant. Created for educati
 
 2. **Running the Script**:
 
-   Make sure you're in the project folder (where `instalock.py` is located) and run:
+   Make sure you're in the project folder and run:
 
    ```bash
-   python instalock.py
+   python -m src
    ```
 
    If you closed the terminal, you'll need to navigate to the project folder again using the steps in **Navigate to Project Folder** above.

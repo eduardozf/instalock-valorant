@@ -16,6 +16,9 @@ Um script Python que ajuda você a selecionar agentes no Valorant. Criado apenas
 - Processo de configuração simples
 - Delay e posições de agente customizáveis
 - Posições de clique com margem de erro configurável que ajudam a prevenir detecção de macro
+- Simulação de movimento do mouse mais humano
+- Tratamento de erros e estabilidade aprimorados
+- Configurações ajustáveis para intervalos de clique e tempos de pressionamento
 
 ## Pré-requisitos
 
@@ -88,10 +91,10 @@ Um script Python que ajuda você a selecionar agentes no Valorant. Criado apenas
 
 2. **Executando o Script**:
 
-   Certifique-se de estar na pasta do projeto (onde está o `instalock.py`) e execute:
+   Certifique-se de estar na pasta do projeto e execute:
 
    ```bash
-   python instalock.py
+   python -m src
    ```
 
    Se você fechou o terminal, precisará navegar novamente até a pasta do projeto usando os passos em **Navegar até a Pasta do Projeto** acima.
