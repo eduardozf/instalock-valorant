@@ -8,9 +8,9 @@
 <summary>📸 示例截图</summary>
 
 <div align="center" style="display: grid; grid-column: 3;">
-    <img src="examples/main_menu.png" alt="Main Menu" style="width: auto; height: 400px; object-fit: contain;"/>
-    <img src="examples/record_agent.png" alt="Record Agent" style="width: auto; height: 400px; object-fit: contain;"/>
-    <img src="examples/instalock_mode.png" alt="Instalock Mode" style="width: auto; height: 400px; object-fit: contain;"/>
+    <img src="examples/main_menu.png" alt="Main Menu" style="width: auto; height: 320px; object-fit: contain;"/>
+    <img src="examples/record_agent.png" alt="Record Agent" style="width: auto; height: 320px; object-fit: contain;"/>
+    <img src="examples/instalock_mode.png" alt="Instalock Mode" style="width: auto; height: 320px; object-fit: contain;"/>
 </div>
 </details>
 
