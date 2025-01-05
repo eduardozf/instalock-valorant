@@ -4,7 +4,14 @@
 
 A Python script that helps you instalock agents in Valorant. Created for educational purposes only 👀
 
-![Example](example.gif)
+![Main Menu](examples/main_menu.png)
+_Main menu with options to record new agent, start macro, and refresh settings_
+
+![Record Agent](examples/record_agent.png)
+_Agent selection interface with all available agents and their keybinds_
+
+![Instalock Mode](examples/instalock_modeff.png)
+_Macro running interface showing active keybinds and instructions_
 
 > [!WARNING]  
 > This tool may violate Valorant's Terms of Service. Use at your own risk. The creator is not responsible for any consequences.
@@ -12,13 +19,16 @@ A Python script that helps you instalock agents in Valorant. Created for educati
 ## Features
 
 - Easy agent selection with customizable keybinds
-- Multi-language support
+- Multi-language support (English, Portuguese, Chinese)
 - Simple setup process
 - Configurable click delays and positions
 - Randomized click positions with a configurable margin of error help prevent macro detection
-- Human-like mouse movement simulation
 - Enhanced error handling and stability
-- Fine-tunable settings for click intervals and hold times
+- Intuitive menu-based interface with options to:
+  - Record new agents
+  - Start macro listener
+  - Refresh settings
+  - Unbind agents
 
 ## Prerequisites
 
@@ -99,26 +109,32 @@ A Python script that helps you instalock agents in Valorant. Created for educati
 
    If you closed the terminal, you'll need to navigate to the project folder again using the steps in **Navigate to Project Folder** above.
 
-3. **First Time Setup**:
+3. **Using the Menu**:
 
-   - Select your language
-   - Press F1 to start recording a new agent
+   - Use arrow keys to navigate the menu
+   - Press Enter to select an option
+   - Press DELETE to unbind an agent
+   - Press Ctrl+C to cancel or exit
+
+4. **Recording an Agent**:
+
+   - Select "Record New Agent" from the menu
    - Select an agent using arrow keys and Enter
    - Press the key you want to use for that agent (e.g. DELETE, END, HOME, etc.)
    - Move your mouse to where the agent appears on the selection screen and press Space
    - Move your mouse to the Lock In button and press Space
-   - Repeat for other agents if desired
 
-4. **Using the Macro**:
-   - Start a game
+5. **Using the Macro**:
+   - Select "Start Macro Listener" from the menu
    - When agent selection begins, _hold_ the key you set for your desired agent
    - Release the key once the agent is locked
-   - Close the script by pressing Ctrl+C and win your game! (Seriously, you already instalocked, so please win the game :))
+   - Press Esc to get back to main menu so the macro doesn't get in your way
 
 ## Tips
 
 - Each agent can have its own keybind
-- Press ESC during recording to cancel
+- Press Ctrl+C during any operation to cancel
+- Use DELETE key to unbind agents
 - The script saves your configuration automatically
 - **Configuration File** (`config.json`):
   - Located in the project folder

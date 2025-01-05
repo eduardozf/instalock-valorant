@@ -4,7 +4,14 @@
 
 Um script Python que ajuda você a selecionar agentes no Valorant. Criado apenas para fins educacionais 👀
 
-![Exemplo](example.gif)
+![Menu Principal](examples/main_menu.png)
+_Menu principal com opções para gravar novo agente, iniciar macro e atualizar configurações_
+
+![Gravação de Agente](examples/record_agent.png)
+_Interface de seleção de agente com todos os agentes disponíveis e suas teclas vinculadas_
+
+![Modo Instalock](examples/instalock_modeff.png)
+_Interface do macro em execução mostrando teclas ativas e instruções_
 
 > [!WARNING]  
 > Esta ferramenta pode violar os Termos de Serviço do Valorant. Use por sua conta e risco. O criador não é responsável por quaisquer consequências.
@@ -12,13 +19,16 @@ Um script Python que ajuda você a selecionar agentes no Valorant. Criado apenas
 ## Funcionalidades
 
 - Seleção fácil de agentes com teclas personalizáveis
-- Suporte a múltiplos idiomas
+- Suporte a múltiplos idiomas (Inglês, Português, Chinês)
 - Processo de configuração simples
 - Delay e posições de agente customizáveis
 - Posições de clique com margem de erro configurável que ajudam a prevenir detecção de macro
-- Simulação de movimento do mouse mais humano
 - Tratamento de erros e estabilidade aprimorados
-- Configurações ajustáveis para intervalos de clique e tempos de pressionamento
+- Interface intuitiva baseada em menu com opções para:
+  - Gravar novo agente
+  - Iniciar macro
+  - Atualizar configurações
+  - Desvincular agentes
 
 ## Pré-requisitos
 
@@ -99,26 +109,32 @@ Um script Python que ajuda você a selecionar agentes no Valorant. Criado apenas
 
    Se você fechou o terminal, precisará navegar novamente até a pasta do projeto usando os passos em **Navegar até a Pasta do Projeto** acima.
 
-3. **Primeira Configuração**:
+3. **Usando o Menu**:
 
-   - Selecione seu idioma
-   - Pressione F1 para começar a gravar um novo agente
+   - Use as setas para navegar no menu
+   - Pressione Enter para selecionar uma opção
+   - Pressione DELETE para desvincular um agente
+   - Pressione Ctrl+C para cancelar ou sair
+
+4. **Gravando um Agente**:
+
+   - Selecione "Gravar Novo Agente" no menu
    - Selecione um agente usando as setas e Enter
    - Pressione a tecla que deseja usar para esse agente (ex: DELETE, END, HOME, etc.)
    - Mova o mouse para onde o agente aparece na tela de seleção e pressione Espaço
    - Mova o mouse para o botão de Confirmar e pressione Espaço
-   - Repita para outros agentes se desejar
 
-4. **Usando o Macro**:
-   - Inicie uma partida
+5. **Usando o Macro**:
+   - Selecione "Iniciar Macro" no menu
    - Quando a seleção de agentes começar, _mantenha pressionada_ a tecla que você configurou para o agente desejado
    - Solte a tecla quando o agente estiver selecionado
-   - Feche o script pressionando Ctrl+C e vença o jogo! _Sério, você já deu instalock, então por favor ganhe o jogo >:(_
+   - Pressione Esc para voltar ao menu principal para que o macro não atrapalhe
 
 ## Dicas de uso
 
 - Cada agente pode ter sua própria tecla de atalho
-- Pressione ESC durante a gravação de teclas para cancelar
+- Pressione Ctrl+C durante qualquer operação para cancelar
+- Use a tecla DELETE para desvincular agentes
 - O script salva sua configuração automaticamente
 - **Arquivo de Configuração** (`config.json`):
   - Localizado na pasta do projeto
