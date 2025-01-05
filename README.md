@@ -4,14 +4,26 @@
 
 A Python script that helps you instalock agents in Valorant. Created for educational purposes only 👀
 
-![Main Menu](examples/main_menu.png)
-_Main menu with options to record new agent, start macro, and refresh settings_
+<details>
+<summary>📸 Example Screenshots</summary>
 
-![Record Agent](examples/record_agent.png)
-_Agent selection interface with all available agents and their keybinds_
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <div style="flex: 1; min-width: 250px; max-width: 400px;">
+    <img src="examples/main_menu.png" alt="Main Menu" style="width: 100%; height: 300px; object-fit: contain;"/>
+    <p><em>Main menu with options to record new agent, start macro, and refresh settings</em></p>
+  </div>
 
-![Instalock Mode](examples/instalock_modeff.png)
-_Macro running interface showing active keybinds and instructions_
+  <div style="flex: 1; min-width: 250px; max-width: 400px;">
+    <img src="examples/record_agent.png" alt="Record Agent" style="width: 100%; height: 300px; object-fit: contain;"/>
+    <p><em>Agent selection interface with all available agents and their keybinds</em></p>
+  </div>
+
+  <div style="flex: 1; min-width: 250px; max-width: 400px;">
+    <img src="examples/instalock_mode.png" alt="Instalock Mode" style="width: 100%; height: 300px; object-fit: contain;"/>
+    <p><em>Macro running interface showing active keybinds and instructions</em></p>
+  </div>
+</div>
+</details>
 
 > [!WARNING]  
 > This tool may violate Valorant's Terms of Service. Use at your own risk. The creator is not responsible for any consequences.

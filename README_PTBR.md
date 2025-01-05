@@ -4,14 +4,26 @@
 
 Um script Python que ajuda você a selecionar agentes no Valorant. Criado apenas para fins educacionais 👀
 
-![Menu Principal](examples/main_menu.png)
-_Menu principal com opções para gravar novo agente, iniciar macro e atualizar configurações_
+<details>
+<summary>📸 Capturas de Tela de Exemplo</summary>
 
-![Gravação de Agente](examples/record_agent.png)
-_Interface de seleção de agente com todos os agentes disponíveis e suas teclas vinculadas_
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <div style="flex: 1; min-width: 250px; max-width: 400px;">
+    <img src="examples/main_menu.png" alt="Menu Principal" style="width: 100%; height: 300px; object-fit: contain;"/>
+    <p><em>Menu principal com opções para gravar novo agente, iniciar macro e atualizar configurações</em></p>
+  </div>
 
-![Modo Instalock](examples/instalock_modeff.png)
-_Interface do macro em execução mostrando teclas ativas e instruções_
+  <div style="flex: 1; min-width: 250px; max-width: 400px;">
+    <img src="examples/record_agent.png" alt="Gravação de Agente" style="width: 100%; height: 300px; object-fit: contain;"/>
+    <p><em>Interface de seleção de agente com todos os agentes disponíveis e suas teclas vinculadas</em></p>
+  </div>
+
+  <div style="flex: 1; min-width: 250px; max-width: 400px;">
+    <img src="examples/instalock_mode.png" alt="Modo Instalock" style="width: 100%; height: 300px; object-fit: contain;"/>
+    <p><em>Interface do macro em execução mostrando teclas ativas e instruções</em></p>
+  </div>
+</div>
+</details>
 
 > [!WARNING]  
 > Esta ferramenta pode violar os Termos de Serviço do Valorant. Use por sua conta e risco. O criador não é responsável por quaisquer consequências.

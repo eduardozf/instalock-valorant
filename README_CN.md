@@ -4,14 +4,26 @@
 
 一个帮助你在 Valorant 中秒选特工的 Python 脚本。仅供教育目的使用 👀
 
-![主菜单](examples/main_menu.png)
-_主菜单，包含录制新特工、启动宏和刷新设置选项_
+<details>
+<summary>📸 示例截图</summary>
 
-![录制特工](examples/record_agent.png)
-_特工选择界面，显示所有可用特工及其按键绑定_
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <div style="flex: 1; min-width: 250px; max-width: 400px;">
+    <img src="examples/main_menu.png" alt="主菜单" style="width: 100%; height: 300px; object-fit: contain;"/>
+    <p><em>主菜单，包含录制新特工、启动宏和刷新设置选项</em></p>
+  </div>
 
-![秒选模式](examples/instalock_modeff.png)
-_宏运行界面，显示活动按键绑定和使用说明_
+  <div style="flex: 1; min-width: 250px; max-width: 400px;">
+    <img src="examples/record_agent.png" alt="录制特工" style="width: 100%; height: 300px; object-fit: contain;"/>
+    <p><em>特工选择界面，显示所有可用特工及其按键绑定</em></p>
+  </div>
+
+  <div style="flex: 1; min-width: 250px; max-width: 400px;">
+    <img src="examples/instalock_mode.png" alt="秒选模式" style="width: 100%; height: 300px; object-fit: contain;"/>
+    <p><em>宏运行界面，显示活动按键绑定和使用说明</em></p>
+  </div>
+</div>
+</details>
 
 > [!WARNING]  
 > 此工具可能违反 Valorant 的服务条款。使用风险自负。创作者不对任何后果负责。
