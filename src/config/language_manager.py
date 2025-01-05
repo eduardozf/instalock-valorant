@@ -4,7 +4,7 @@ from pynput import keyboard
 import threading
 import time
 
-from .menu_manager import MenuManager
+from ui.menu_manager import MenuManager
 
 class LanguageManager:
     def __init__(self):
@@ -22,7 +22,7 @@ class LanguageManager:
         Returns a dictionary with language settings or empty dict if file not found.
         """
         try:
-            with open('./src/languages.json', 'r', encoding='utf-8') as f:
+            with open('./src/config/languages.json', 'r', encoding='utf-8') as f:
                 return json.load(f)
         except Exception as e:
             print(f"⚠️  Error loading languages: {e}")

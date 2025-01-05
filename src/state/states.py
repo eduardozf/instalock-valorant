@@ -1,7 +1,7 @@
 from typing import Dict, Any
 from pynput import keyboard
 
-from .interfaces import IMacroState, IConfigProvider, IMenuController, ILanguageProvider
+from core.interfaces import IMacroState, IConfigProvider, IMenuController, ILanguageProvider
 
 class MacroState(IMacroState):
     def __init__(self, config: IConfigProvider, menu: IMenuController, lang: ILanguageProvider):

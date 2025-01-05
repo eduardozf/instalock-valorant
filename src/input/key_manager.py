@@ -1,3 +1,4 @@
+from typing import Any
 from pynput import keyboard
 import threading
 import time
@@ -64,13 +65,8 @@ class KeyManager:
         return False
     
     def handle_special_keys(self, key: keyboard.Key) -> bool:
-        """Handle special keys like Ctrl, Shift, Alt, F1, Space."""
-        special_keys = {
-            keyboard.Key.ctrl, keyboard.Key.ctrl_l, keyboard.Key.ctrl_r,
-            keyboard.Key.shift, keyboard.Key.shift_l, keyboard.Key.shift_r,
-            keyboard.Key.alt, keyboard.Key.alt_l, keyboard.Key.alt_r,
-            keyboard.Key.f1, keyboard.Key.space
-        }
+        """Handle special keys like F1, Space."""
+        special_keys: Any = { keyboard.Key.f1, keyboard.Key.space }
         
         if key in special_keys:
             self.pressed_keys.add(key)
@@ -82,8 +78,9 @@ class KeyManager:
                 return True
             
             if key == keyboard.Key.space and self.macro.recording_mode:
-                return self.handle_space_key()
-                
+                self.handle_space_key()
+                return True
+            
             return True
         return False
     
@@ -182,6 +179,29 @@ class KeyManager:
         try:
             self.keyboard_listener.key = key
             
+            # Handle ESC key first
+            if key == keyboard.Key.esc:
+                if self.macro.recording_mode:
+                    self.macro.recording_mode = False
+                    self.macro.recording_state = None
+                    self.macro.current_agent_name = None
+                    print(f"\n{self.macro.strings['recording_cancelled']}")
+                    time.sleep(1)
+                    self.macro.menu_manager.show_main_menu(self.macro.config_manager.config)
+                    return True
+                elif self.macro.menu_manager.current_menu != "main":
+                    # Stop macro execution
+                    self.macro.macro_active = False
+                    if self.macro.macro_thread and self.macro.macro_thread.is_alive():
+                        self.macro.macro_thread.join(timeout=0.1)
+                    self.key_held = False
+                    # Clear any held keys
+                    self.pressed_keys.clear()
+                    self.macro.menu_manager.current_menu = "main"
+                    self.macro.menu_manager.show_main_menu(self.macro.config_manager.config)
+                    return True
+            
+            # Then handle other keys
             if (self.handle_menu_key(key) or
                 self.handle_recording_key(key) or
                 self.handle_special_keys(key) or

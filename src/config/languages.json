@@ -59,7 +59,7 @@
       "press_enter_back": "Press Enter to return to menu",
       "menu_refresh_settings": "Refresh Settings",
       "agent_bound_to": "(bound to {key})",
-      "press_delete_unbind": " | DELETE: unbind",
+      "press_delete_unbind": " | DELETE: Unbind",
       "agent_unbound": "✅ Agent unbound successfully"
     }
   },
@@ -123,7 +123,7 @@
       "press_enter_back": "Pressione Enter para voltar ao menu",
       "menu_refresh_settings": "Atualizar Configurações",
       "agent_bound_to": "(vinculado a {key})",
-      "press_delete_unbind": " | DELETE: desvincular",
+      "press_delete_unbind": " | DELETE: Desvincular",
       "agent_unbound": "✅ Agente desvinculado com sucesso"
     }
   },
@@ -187,7 +187,7 @@
       "press_enter_back": "按Enter返回菜单",
       "menu_refresh_settings": "刷新设置",
       "agent_bound_to": "(绑定到 {key})",
-      "press_delete_unbind": " | DELETE: 解除绑定",
+      "press_delete_unbind": " | DELETE: 解绑",
       "agent_unbound": "✅ 特工解绑成功"
     }
   }

@@ -2,7 +2,7 @@ import os
 from typing import List, Tuple, Dict, Any, Callable
 from pynput import keyboard
 
-from .interfaces import IMenuController
+from core.interfaces import IMenuController
 
 def clear_console():
     """Clear the console screen based on the operating system."""

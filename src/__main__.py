@@ -1,5 +1,5 @@
 import sys
-from .macro import InstalockMacro
+from macro.macro import InstalockMacro
 
 def main():
     try:

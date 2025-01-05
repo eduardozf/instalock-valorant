@@ -1,5 +1,5 @@
 from typing import Dict, Type, Any
-from .interfaces import IMacroState, IConfigProvider, IMenuController, ILanguageProvider
+from core.interfaces import IMacroState, IConfigProvider, IMenuController, ILanguageProvider
 from .states import MainMenuState, RecordingState, MacroActiveState
 
 class StateManager:
@@ -33,5 +33,7 @@ class StateManager:
     def handle_input(self, key: Any) -> bool:
         """Handle input in current state."""
         if self.current_state:
-            return self.current_state.handle_input(key)
+            if self.current_state.handle_input(key):
+                self.transition_to("main_menu")
+                return True
         return False 
