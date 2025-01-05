@@ -7,21 +7,10 @@ Um script Python que ajuda você a selecionar agentes no Valorant. Criado apenas
 <details>
 <summary>📸 Capturas de Tela de Exemplo</summary>
 
-<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <div style="flex: 1; min-width: 250px; max-width: 400px;">
-    <img src="examples/main_menu.png" alt="Menu Principal" style="width: 100%; height: 300px; object-fit: contain;"/>
-    <p><em>Menu principal com opções para gravar novo agente, iniciar macro e atualizar configurações</em></p>
-  </div>
-
-  <div style="flex: 1; min-width: 250px; max-width: 400px;">
-    <img src="examples/record_agent.png" alt="Gravação de Agente" style="width: 100%; height: 300px; object-fit: contain;"/>
-    <p><em>Interface de seleção de agente com todos os agentes disponíveis e suas teclas vinculadas</em></p>
-  </div>
-
-  <div style="flex: 1; min-width: 250px; max-width: 400px;">
-    <img src="examples/instalock_mode.png" alt="Modo Instalock" style="width: 100%; height: 300px; object-fit: contain;"/>
-    <p><em>Interface do macro em execução mostrando teclas ativas e instruções</em></p>
-  </div>
+<div align="center" style="display: grid; grid-column: 3;">
+    <img src="examples/main_menu.png" alt="Main Menu" style="width: auto; height: 400px; object-fit: contain;"/>
+    <img src="examples/record_agent.png" alt="Record Agent" style="width: auto; height: 400px; object-fit: contain;"/>
+    <img src="examples/instalock_mode.png" alt="Instalock Mode" style="width: auto; height: 400px; object-fit: contain;"/>
 </div>
 </details>
 
