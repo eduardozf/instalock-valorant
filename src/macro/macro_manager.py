@@ -1,10 +1,9 @@
-from typing import Dict, Any
-from pynput import keyboard
-from core.interfaces import (
+from typing import Any
+from ..core.interfaces import (
     IConfigProvider, IKeyHandler, IMouseController,
     IMenuController, IMacroExecutor, ILanguageProvider
 )
-from state.state_manager import StateManager
+from ..state.state_manager import StateManager
 import time
 
 class MacroManager:

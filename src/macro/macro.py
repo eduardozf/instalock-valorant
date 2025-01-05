@@ -1,10 +1,10 @@
 from .macro_manager import MacroManager
-from config.config_manager import ConfigManager
-from input.key_manager import KeyManager
-from input.mouse_manager import MouseManager
-from ui.menu_manager import MenuManager
-from config.language_manager import LanguageManager
 from .macro_executor import MacroExecutor
+from ..config.config_manager import ConfigManager
+from ..input.key_manager import KeyManager
+from ..input.mouse_manager import MouseManager
+from ..ui.menu_manager import MenuManager
+from ..config.language_manager import LanguageManager
 
 class InstalockMacro:
     """

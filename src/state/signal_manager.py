@@ -1,6 +1,5 @@
 import signal
 import sys
-from typing import Callable
 
 class SignalManager:
     def __init__(self, macro):

@@ -1,5 +1,5 @@
 from typing import Dict, Type, Any
-from core.interfaces import IMacroState, IConfigProvider, IMenuController, ILanguageProvider
+from ..core.interfaces import IMacroState, IConfigProvider, IMenuController, ILanguageProvider
 from .states import MainMenuState, RecordingState, MacroActiveState
 
 class StateManager:

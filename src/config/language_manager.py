@@ -4,7 +4,7 @@ from pynput import keyboard
 import threading
 import time
 
-from ui.menu_manager import MenuManager
+from ..ui.menu_manager import MenuManager
 
 class LanguageManager:
     def __init__(self):
