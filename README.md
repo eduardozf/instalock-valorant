@@ -7,21 +7,10 @@ A Python script that helps you instalock agents in Valorant. Created for educati
 <details>
 <summary>📸 Example Screenshots</summary>
 
-<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <div style="flex: 1; min-width: 250px; max-width: 400px;">
-    <img src="examples/main_menu.png" alt="Main Menu" style="width: 100%; height: 300px; object-fit: contain;"/>
-    <p><em>Main menu with options to record new agent, start macro, and refresh settings</em></p>
-  </div>
-
-  <div style="flex: 1; min-width: 250px; max-width: 400px;">
-    <img src="examples/record_agent.png" alt="Record Agent" style="width: 100%; height: 300px; object-fit: contain;"/>
-    <p><em>Agent selection interface with all available agents and their keybinds</em></p>
-  </div>
-
-  <div style="flex: 1; min-width: 250px; max-width: 400px;">
-    <img src="examples/instalock_mode.png" alt="Instalock Mode" style="width: 100%; height: 300px; object-fit: contain;"/>
-    <p><em>Macro running interface showing active keybinds and instructions</em></p>
-  </div>
+<div align="center" style="display: grid; grid-column: 3;">
+    <img src="examples/main_menu.png" alt="Main Menu" style="width: auto; height: 400px; object-fit: contain;"/>
+    <img src="examples/record_agent.png" alt="Record Agent" style="width: auto; height: 400px; object-fit: contain;"/>
+    <img src="examples/instalock_mode.png" alt="Instalock Mode" style="width: auto; height: 400px; object-fit: contain;"/>
 </div>
 </details>
 
