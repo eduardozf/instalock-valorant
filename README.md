@@ -4,15 +4,11 @@
 
 A Python script that helps you instalock agents in Valorant. Created for educational purposes only 👀
 
-<details>
-<summary>📸 Example Screenshots</summary>
-
-<div align="center" style="display: grid; grid-column: 3;">
+<div style="display: grid; grid-column: 3;">
     <img src="examples/main_menu.png" alt="Main Menu" style="width: auto; height: 320px; object-fit: contain;"/>
     <img src="examples/record_agent.png" alt="Record Agent" style="width: auto; height: 320px; object-fit: contain;"/>
     <img src="examples/instalock_mode.png" alt="Instalock Mode" style="width: auto; height: 320px; object-fit: contain;"/>
 </div>
-</details>
 
 > [!WARNING]  
 > This tool may violate Valorant's Terms of Service. Use at your own risk. The creator is not responsible for any consequences.
