@@ -4,15 +4,11 @@
 
 Um script Python que ajuda você a selecionar agentes no Valorant. Criado apenas para fins educacionais 👀
 
-<details>
-<summary>📸 Capturas de Tela de Exemplo</summary>
-
-<div align="center" style="display: grid; grid-column: 3;">
+<div style="display: grid; grid-column: 3;">
     <img src="examples/main_menu.png" alt="Main Menu" style="width: auto; height: 320px; object-fit: contain;"/>
     <img src="examples/record_agent.png" alt="Record Agent" style="width: auto; height: 320px; object-fit: contain;"/>
     <img src="examples/instalock_mode.png" alt="Instalock Mode" style="width: auto; height: 320px; object-fit: contain;"/>
 </div>
-</details>
 
 > [!WARNING]  
 > Esta ferramenta pode violar os Termos de Serviço do Valorant. Use por sua conta e risco. O criador não é responsável por quaisquer consequências.
